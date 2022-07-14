@@ -1,0 +1,76 @@
+{"intents":
+[
+    {
+        "tag": "greetings",
+        "patterns": [
+            "hello",
+            "hi",
+            "hey",
+            "hola",
+            "bonjour",
+            "greetings",
+            "good morning",
+            "good afternoon",
+            "good evening"
+        ],
+        "responses": [
+            "Hello, how can I help you?",
+            "Hi there, how can I help you?",
+            "Hey, how can I help you?",
+            "Hola, how can I help you?",
+            "Bonjour, how can I help you?",
+            "Greetings, how can I help you?",
+            "Good morning, how can I help you?",
+            "Good afternoon, how can I help you?",
+            "Good evening, how can I help you?"
+        ]
+    },
+    {
+        "tag":"goodbye",
+        "patterns": [
+            "bye",
+            "goodbye",
+            "see you later",
+            "good night"
+        ],
+        "responses": [
+            "Bye, have a good day.",
+            "Goodbye, have a good day.",
+            "See you later.",
+            "Good night."
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+            "thank you",
+            "thanks",
+            "thank",
+            "thx"
+        ],
+        "responses": [
+            "You're welcome."
+        ]
+    },
+    {
+        "tag": "hours",
+        "patterns": [
+            "when are you open?",
+            "what time are you guys open?",
+            "what time do you open?",
+            "when do you open?",
+            "when do you close?"
+        ],
+        "responses": [
+            "we are open 24/7"
+        ]
+    },
+    {
+        "tag":"age",
+        "patterns": [
+            "what is your age?",
+            "how old are you?",
+
+        ]
+    }
+]}
